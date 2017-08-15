@@ -16,8 +16,8 @@ class baseSpider(scrapy.Spider):
         filepath = os.getcwd()
         self.fi = open(filepath+r'\result\result.txt','w')
         super(baseSpider,self).__init__()
-
-        dbClient  = MongoClient("47.92.6.177",27017)
+        # 你的地址和端口号
+        dbClient  = MongoClient("111.111.111.111",11111)
         dbname = "national_regionalism"
         db = dbClient[dbname]
         self.coll = db["weather"]
