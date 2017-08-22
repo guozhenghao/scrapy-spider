@@ -11,7 +11,7 @@ from scrapy import log
 
 class MongoDBPipeline(object):
     def __init__(self):
-        dbClient  = MongoClient("47.92.6.177",27017)
+        dbClient  = MongoClient("111.111.111.111",111)
         dbname = "national_regionalism"
         db = dbClient[dbname]
         self.coll = db["weather"]
