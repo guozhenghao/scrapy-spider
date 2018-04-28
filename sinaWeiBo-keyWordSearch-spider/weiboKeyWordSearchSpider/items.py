@@ -8,15 +8,7 @@
 import scrapy
 
 
-class WeatherspiderItem(scrapy.Item):
+class WeibokeywordsearchspiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    cityCode = scrapy.Field()
-    temp = scrapy.Field()
-    SD = scrapy.Field()
-    updateTime = scrapy.Field()
-    WD = scrapy.Field()
-    WSE = scrapy.Field()
-    quality = scrapy.Field()
-
-
+    pass
