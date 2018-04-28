@@ -1,0 +1,9 @@
+2017-07-20 19:07:05 [py.warnings] WARNING: C:\Users\lenovo\Desktop\zipCodeSpider\zipCodeSpider\middlewares.py:10: ScrapyDeprecationWarning: Module `scrapy.log` has been deprecated, Scrapy now relies on the builtin Python library for logging. Read the updated logging entry in the documentation to learn more.
+  from scrapy import log
+
+2017-07-21 10:46:49 [py.warnings] WARNING: C:\Users\lenovo\Desktop\zipCodeSpider\zipCodeSpider\middlewares.py:10: ScrapyDeprecationWarning: Module `scrapy.log` has been deprecated, Scrapy now relies on the builtin Python library for logging. Read the updated logging entry in the documentation to learn more.
+  from scrapy import log
+
+2017-07-21 10:55:31 [py.warnings] WARNING: C:\Users\lenovo\Desktop\zipCodeSpider\zipCodeSpider\middlewares.py:10: ScrapyDeprecationWarning: Module `scrapy.log` has been deprecated, Scrapy now relies on the builtin Python library for logging. Read the updated logging entry in the documentation to learn more.
+  from scrapy import log
+
