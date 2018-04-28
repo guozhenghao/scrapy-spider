@@ -1,0 +1,1 @@
+0 0-23 * * * ? source /etc/profile;/bin/bash /mnt/spiders/PM25/script/startSpider.sh 2> /mnt/spiders/PM25/result/timer_cron.log
