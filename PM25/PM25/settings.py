@@ -92,7 +92,6 @@ ITEM_PIPELINES = {
 
 # LOG
 LOG_STDOUT = True
-# LOG_FILE = '/home/wzs/svn/spider_python/PM25/result/log.log'
-LOG_FILE = "/mnt/spiders/PM25/result/log.log"
-# LOG_FILE = r"D:\svn\spiders\PM25\result\log.log"
+# LOG_FILE = "/mnt/graduation/spider/PM25/result/log.log"
+LOG_FILE = r"D:\code\workSpace\pycharm\PM25\result\log.log"
 LOG_LEVEL = 'WARNING'

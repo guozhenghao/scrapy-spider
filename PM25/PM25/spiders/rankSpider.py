@@ -7,8 +7,10 @@ from baseSpider import baseSpider
 
 class rankSpider(baseSpider):
 
+
     name = "rankSpider"
     allowed_domains = ["pm25.in"]
+
     # 该方法必须返回一个可迭代的对象
     def start_requests(self):
         self.logger.warning("SCRAPY: Begin Crawl")
@@ -27,8 +29,6 @@ class rankSpider(baseSpider):
     
     def parse(self, response):
         try:
-            # from scrapy.shell import inspect_response
-            # inspect_response(response, self)
             return self.parse_rankPage(response)
         except BaseException, e:
             raise CloseSpider("IP have been forbidden")
