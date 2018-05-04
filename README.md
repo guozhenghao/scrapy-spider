@@ -42,3 +42,5 @@ db.getCollection('zipCode').aggregate([
     { $match : { num_tutorial : { $gt:0 } } },
 ])
 ````
+# ETC
+etc中的不是爬虫，是通过分析页面找到请求直接获取信息，traffic为一个获取demo，heat为了记录加入header和cookie的样例
